@@ -47,7 +47,7 @@ class Calculator:
 
     def solve(self):
         result = eval(self.entry_value)
-        self.result.set(result)
+        self.result.set(f"Result:  {result}")
 
 
 if __name__ == '__main__':
